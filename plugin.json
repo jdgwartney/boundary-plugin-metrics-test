@@ -1,0 +1,20 @@
+{
+  "name": "Metric test",
+  "version": "1.0",
+  "description": "Example Hello World plugin",
+  "command": "boundary-meter index.lua",
+  "icon": "icon.png",
+  "metrics": [
+    "BOUNDARY_METRIC_TEST"
+  ],
+  "paramSchema": [
+    {
+      "title": "Source",
+      "name": "source",
+      "description": "Source to be used for the measurement",
+      "type": "string",
+      "default": "",
+      "required": true
+    }
+  ]
+}
